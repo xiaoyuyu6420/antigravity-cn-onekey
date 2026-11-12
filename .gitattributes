@@ -1,0 +1,3 @@
+# bat 按原始字节保存（GBK 编码 + CRLF 换行），否则 autocrlf 会把换行规范成 LF，
+# 导致 GitHub zip 下载的脚本在 cmd 下有解析风险
+*.bat -text
